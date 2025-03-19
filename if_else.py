@@ -20,9 +20,9 @@ else:
 #votar
 
 
-edad = 20
-documento = False
-if edad >= 18 and documento==True:
+edad = int (input ("ingrese su edad"))
+documento = input ("tiene documento (SI/NO):")
+if edad >= 18 and documento=="SI":
     print ("Usted es mayor de edad")
     print ("Puede votar")
 
