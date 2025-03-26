@@ -31,7 +31,7 @@ if edad >=18:
         documento = input ("tiene documento? (si/no): ")
         if documento == "si":
             print ("puede votar")
-        else:   
+        else:
             print ("no puede votar")
 else:
     print ("no puede votar")
