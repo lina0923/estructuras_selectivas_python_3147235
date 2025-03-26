@@ -110,8 +110,14 @@ elif contrato == "b":
     salario_neto = salario_mensual - eps - pension 
     if antiguedad >=10:
         salario_neto = salario_neto + bonificacion
+        
+        
+        
 elif contrato == "c":
     print ("Eligio: Contrato de aprendizaje")
+    
+    
+    
 elif contrato == "d":
     print ("Eligio  jornal")
     numero_horas = int (input("Ingrese numero horas")) 
