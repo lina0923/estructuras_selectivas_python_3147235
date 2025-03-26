@@ -18,6 +18,9 @@ d - Contrato por Jornal(freelance)
    * El total del salario se calcula de multiplicar el numero de horas por costo de hora
 '''
 contrato = input("Ingrese el tipo de contrato:")
+#inicializar variables:
+# dar vakir inicial a una variable
+# asi no se utilice en el momento
 salario_neto = 0
 if contrato == "a":
     print ("Eligio: Contrato a termino indefinido")
@@ -26,9 +29,11 @@ elif contrato == "b":
 elif contrato == "c":
     print ("Eligio: Contrato de aprendizaje")
 elif contrato == "d":
-    print ("Eligio: Contrato por jornal")
-    
-   numero_horas
+    print ("Eligio  jornal")
+    numero_horas = int (input("Ingrese numero horas")) 
+    valor_hora = int(input("Valor horas"))
+    salario_neto = numero_horas * valor_hora
 else: 
     print ("Contrato no válido")
-print ("fin del programa")
+    print("el salario neto es:", salario_neto)
+print ("FIn del programa")
