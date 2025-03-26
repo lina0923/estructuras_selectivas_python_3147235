@@ -13,8 +13,12 @@ b - Contrato por prestacion
     de servicios
 c - Contrato de aprendizaje
 d - Contrato por Jornal(freelance)
+=> Para el caso de Jornal: 
+   - el usuario debe ingresar el número de horas trabajadas y el costo por hora
+   * El total del salario se calcula de multiplicar el numero de horas por costo de hora
 '''
 contrato = input("Ingrese el tipo de contrato:")
+salario_neto = 0
 if contrato == "a":
     print ("Eligio: Contrato a termino indefinido")
 elif contrato == "b":
@@ -22,4 +26,9 @@ elif contrato == "b":
 elif contrato == "c":
     print ("Eligio: Contrato de aprendizaje")
 elif contrato == "d":
-    print ("Eligio: Contrato por jornal(freelance)")
+    print ("Eligio: Contrato por jornal")
+    
+   numero_horas
+else: 
+    print ("Contrato no válido")
+print ("fin del programa")
